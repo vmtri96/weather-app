@@ -1,0 +1,112 @@
+.right {
+    width: 100%;
+    padding: 30px 150px;
+}
+
+.right .degree-mode {
+    float: right;
+}
+
+.right .degree-mode button {
+    display: inline;
+}
+
+.right .degree-mode button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.right .degree-mode button.active {
+    background-color: #E7E7EB;
+    color: #110E3C;
+}
+
+.weather-next {
+    margin-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.weather-next .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px;
+    height: 177px;
+    padding: 15px 20px;
+    background-color: #1E213A;
+}
+
+.weather-next .card-wrapper .date {
+    color: #E7E7EB;
+    text-align: center;
+    font-weight: 500;
+}
+
+.weather-next .card-wrapper .degree {
+    font-size: 14px;
+    font-weight: 500;
+    color: #A09FB1;
+}
+
+.weather-next .card-wrapper .degree.max {
+    color: #E7E7EB;
+}
+
+.weather-next .card-wrapper .degree-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .today-hightlight {
+    color: #E7E7EB;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.right .hightlight-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.right .hightlight-wrapper .card-wrapper {
+    background-color: #1E213A;
+    padding: 22px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    min-height: 120px;
+}
+
+.right .hightlight-wrapper .card-wrapper .title {
+    color: #E7E7EB;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.right .hightlight-wrapper .card-wrapper .main-value {
+    color: #E7E7EB;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.right .hightlight-wrapper .card-wrapper .main-value span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.right .hightlight-wrapper .card-wrapper.card-big {
+    
+}
+
+.signature {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #616475;
+}

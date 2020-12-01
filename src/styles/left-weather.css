@@ -1,0 +1,51 @@
+.left-weather {
+    height: 100%;
+    /* background: url('../assets/Cloud-background.png') no-repeat top; */
+}
+
+.left-weather .top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-weather .img-wrapper {
+    width: 150px;
+    height: 180px;
+    margin: 3em auto 0 auto;
+}
+
+.left-weather .degree {
+    font-size: 70px;
+    font-weight: 500;
+    color: #E7E7EB;
+    text-align: center;
+}
+
+.left-weather .degree span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #E7E7EB;
+}
+
+.left-weather .weather-status {
+    color: #A09FB1;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3em;
+}
+
+.left-weather .date, .left-weather .location {
+    font-size: 14px;
+    color: #88869D;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 6em;
+}
+
+.left-weather .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
