@@ -36,17 +36,20 @@ export default {
                 });
             }
         }
-        async function getCurrentWeather(api) {
-            await axios.get(api).then(response => {
-                console.log(response.data)
-                weather1.title = "1111111111111"
-                weather = response.data;
-            })
+        function getCurrentWeather(api) {
+            axios.get(api)
+                .then(response => {
+                    weather1.title = "1111111111111"
+                    weather = response.data;
+                    console.log("1 "+weather)
+                }).catch(error => {
+                    console.log(error);
+                })
         }
         onMounted(() => {
             getLocation();
-            console.log(weather.value)
-            console.log(weather1.title)
+            console.log("2 "+weather.name)
+            console.log("3 "+weather1.title)
         });
 
         return weather;
