@@ -18,9 +18,8 @@
 // import LeftWeather from './LeftWeather'
 
 export default {
-    name: 'Left',
-    components: {
-        // LeftWeather,
+    props: {
+        weather: Object,
     }
 }
 </script>

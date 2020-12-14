@@ -111,7 +111,7 @@ export default {
     components: {
         'app-button': AppButton,
         'app-card': AppCard,
-    }
+    },
 }
 </script>
 
